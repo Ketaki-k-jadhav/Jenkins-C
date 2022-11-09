@@ -3,35 +3,34 @@ Pipeline {
     stages {
         stage ('Makefile') {
             steps {
-                script {
+               
                    sh '''#!/bin/bash
 
                         make
                     
                     '''
-                }
+                
             }
         }
         stage ('Execute') {
             steps {
-                script {
+                
                     sh '''#!/bin/bash
                     
                     ./out
                    
                     '''
-                }
+                
             }
         }
         stage ('Clean') {
             steps {
-                script {
-                    sh '''#!/bin/bash
+                  sh '''#!/bin/bash
 
                     make clean
                     
                     '''
-                }
+                
             }
         }
     }
