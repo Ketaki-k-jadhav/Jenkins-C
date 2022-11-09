@@ -13,7 +13,7 @@ int diff(int a,int b){
 
 int main(){
     
-    int x=6497;
+    int x=64971;
     int y=2309;
 
     int res1=multiply(x,y);
