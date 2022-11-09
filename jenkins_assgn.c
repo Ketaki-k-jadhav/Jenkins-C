@@ -13,8 +13,8 @@ int diff(int a,int b){
 
 int main(){
     
-    int x=647;
-    int y=239;
+    int x=6497;
+    int y=2309;
 
     int res1=multiply(x,y);
     printf("%d * %d : %d\n",x,y,res1);
